@@ -14,7 +14,7 @@ module.exports = function() {
         entry: {
             app: [
                 'webpack-dev-server/client?http://0.0.0.0:3002',
-                '../index.ts'
+                '../index.tsx'
             ]
         },
         output: {
